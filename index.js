@@ -9,7 +9,9 @@ function comparator(a, b) {
  * @param {Array} input array
  * @param {Function} comparator
  * @returns {Array} bubble sorted array
+   This sucks 
  */
+ 
 module.exports = function (arr, cmp) {
   cmp = cmp || comparator;
   var temp;
